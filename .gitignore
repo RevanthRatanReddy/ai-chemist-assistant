@@ -1,0 +1,8 @@
+# Ignore API credentials
+*.json
+
+# Ignore virtual environments, logs, and temp files
+__pycache__/
+*.pyc
+.env
+*.log
