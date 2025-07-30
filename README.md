@@ -36,12 +36,13 @@ This AI Assistant extracts drug names directly from prescription images using OC
 ---
 
 ## 📂 Project Structure
-📁 ai-bot/
+ai-bot/
 ├── data/
-│ ├── drug_list_200.csv
-│ └── pratyangira.json ← (Google Vision API key - not pushed)
+│   ├── drug_list_200.csv             # Drug list (200 drugs)
+│   └── pratyangira.json              # 🔒 Google Vision API key (ignored in Git)
 ├── utils/
-│ └── pdf_utils.py ← OCR and NLP logic
-├── main.py ← Streamlit UI + full workflow
-├── requirements.txt ← Python dependencies
-└── README.md ← You're reading this file
+│   └── pdf_utils.py                  # OCR and NLP logic
+├── main.py                           # Streamlit UI + full workflow
+├── requirements.txt                  # Python dependencies
+└── README.md                         # You're reading this file
+
